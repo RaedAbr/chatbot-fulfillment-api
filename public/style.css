@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  color: white;
+  background: linear-gradient(223deg, #0a1d5a, #510f76, #580101);
+  background-size: 600% 600%;
+
+  -webkit-animation: GradientAnimation 16s ease infinite;
+  -moz-animation: GradientAnimation 16s ease infinite;
+  -o-animation: GradientAnimation 16s ease infinite;
+  animation: GradientAnimation 16s ease infinite;
+}
+
+#indicator {
+  position: fixed;
+  bottom: 10px;
+  right: 70px;
+  transition: all 0.3s ease-in-out;
+}
+
+.container {
+  height: 100vh;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.author {
+  font-style: italic;
+  font-size: 1.2em;
+  color: rgb(212, 184, 184);
+}
+
+@-webkit-keyframes GradientAnimation {
+  0%{background-position:97% 0%}
+  50%{background-position:4% 100%}
+  100%{background-position:97% 0%}
+}
+@-moz-keyframes GradientAnimation {
+  0%{background-position:97% 0%}
+  50%{background-position:4% 100%}
+  100%{background-position:97% 0%}
+}
+@-o-keyframes GradientAnimation {
+  0%{background-position:97% 0%}
+  50%{background-position:4% 100%}
+  100%{background-position:97% 0%}
+}
+@keyframes GradientAnimation {
+  0%{background-position:97% 0%}
+  50%{background-position:4% 100%}
+  100%{background-position:97% 0%}
+}
