@@ -17,6 +17,7 @@ const FakeDatabase = [
   { name: 'Double', price: 6 },
   { name: 'decaffeinated coffee', price: 1 },
   { name: 'Caffee Latte', price: 1 },
+  { name: "Black", price: 4 },
   { name: 'whole milk', price: 1 },
   { name: '2% milk', price: 1 },
   { name: 'skinny', price: 1 },
